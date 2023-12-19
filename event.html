@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #container{
+            text-align: center;
+            color: black;
+        }
+        #btn1{
+            background-color: aqua;
+        }
+        #btn2{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <h2>Kamu mau ga jadi pacar aku?</h2>
+    <h3 id="jawab">Jawaban</h3>
+    <button id="btn1" type="button" onclick='document.getElementById("jawab").innerHTML = "Iya aku mau"'>Terima</button>
+    <button id="btn2" type="button" onclick='document.getElementById("jawab").innerHTML = "Bapak ku galak"'>Tidak Terima</button>
+</div>
+</body>
+</html>

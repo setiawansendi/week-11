@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Variabel</title>
+</head>
+<body>
+    <div id="sen"></div>
+</body>
+<script>
+    var nama_depan = "Sendi";
+    var nama_belakang = "Setiawan";
+
+    var hasil = nama_depan + ' ' + nama_belakang
+
+    document.getElementById("sen").innerHTML = "Nama Lengkap : " + hasil;
+    console.log(typeof(nama_depan));
+
+    //function
+    function penjumlahan(a,b){
+        return a*b;
+    }
+    console.log(penjumlahan(2,10));
+</script>
+</html>
